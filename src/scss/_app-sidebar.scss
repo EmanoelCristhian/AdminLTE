@@ -15,8 +15,6 @@
 
   z-index: $lte-zindex-sidebar;
   grid-area: #{$lte-prefix}app-sidebar;
-  min-width: var(--#{$lte-prefix}sidebar-width);
-  max-width: var(--#{$lte-prefix}sidebar-width);
   @include transition($lte-sidebar-transition);
 }
 
